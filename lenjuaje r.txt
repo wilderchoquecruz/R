@@ -1,0 +1,4 @@
+Reynaldo Zeballos16:31
+ap2012 <- filter(kardex, kardex$NOTA==100 & (kardex$PERIODO == '2012-I' | kardex$PERIODO == '2012-II'))
+Reynaldo Zeballos16:48
+r=estudiantes %>% inner_join(ap2012,by=c("CARNET"="CARNET"))
